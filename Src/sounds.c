@@ -258,15 +258,6 @@ void playBeaconTune3(){
 	__enable_irq();
 }
 
-void pause(uint16_t ms){
-	TIM1->CCR1 = 0;
-	TIM1->CCR2 = 0;
-	TIM1->CCR3 = 0;
-
-	delayMillis(ms);
-	setCaptureCompare();
-}
-
 void playDixie() {
 	__disable_irq();
 	setCaptureCompare();
