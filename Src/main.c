@@ -1286,12 +1286,6 @@ if (GIMBAL_MODE){
  receiveDshotDma();
 #endif
 	
-#ifdef MP6531
- 	VOLTAGE_DIVIDER = 8;
-#else
-	VOLTAGE_DIVIDER = 11;     // 100k upper and 10k lower resistor in divider
-#endif
-
 #ifdef MCU_F051
  MCU_Id = DBGMCU->IDCODE &= 0xFFF;
  REV_Id = DBGMCU->IDCODE >> 16;
