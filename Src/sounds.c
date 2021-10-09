@@ -274,9 +274,9 @@ void playDixie() {
 	pause(50);
 
 	// A
-	TIM1->PSC = 90;
-	delayMillis(180);
-	pause(75);
+	TIM1->PSC = 90;			// Pitch or Frequency: The HIGHER the number the LOWER the pitch
+	delayMillis(180);		// Duration of beep: 1000 = 1 Second
+	pause(75);			// Pause between beeps: 1000 = 1 Second
 
 	// A
 	TIM1->PSC = 90;
