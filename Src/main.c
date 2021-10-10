@@ -181,7 +181,7 @@ firmware_info_s __attribute__ ((section(".firmware_info"))) firmware_info = {
 uint8_t EEPROM_VERSION;
 
 //firmware build options
-char BRUSHED_MODE = 0;         // overrides everything else
+char BRUSHED_MODE = 1;         // overrides everything else
 char RC_CAR_REVERSE = 0;         // have to set bidirectional, comp_pwm off and stall protection off, no sinusoidal startup
 char GIMBAL_MODE = 0;     // also sinusoidal_startup needs to be on.
 //move these to targets folder or peripherals for each mcu
