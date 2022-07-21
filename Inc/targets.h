@@ -9,11 +9,11 @@
 //#define TMOTOR45
 //#define HGLRC
 //#define SISKIN
-#define MAMBA_F60PRO
+//define MAMBA_F60PRO
 //#define WRAITH32
 //#define AIKON20X20
 //#define AIKONSINGLE
-//#define FLYCOLOR
+#define FLYCOLOR
 //#define HKMICRO
 //#define AM32REF
 //#define BLPWR
